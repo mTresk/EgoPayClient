@@ -1,0 +1,21 @@
+{
+	"name": "mtresk/ego-pay-client",
+	"description": "Клиент для интернет-эквайринга EgoPay",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"mTresk\\EgoPayClient\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Maxim Tresk",
+			"email": "djtresk@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=8.2",
+		"ext-soap": "*"
+	},
+	"minimum-stability": "dev"
+}
